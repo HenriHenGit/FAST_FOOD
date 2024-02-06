@@ -1,0 +1,24 @@
+/* Css phân quyền cho header */
+.header__top__right__auth {
+    position: relative;
+  
+}
+  
+  .header__top__right__auth div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__top__right__auth ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .header__top__right__auth:hover ul {
+    display: block;
+  }
